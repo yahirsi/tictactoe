@@ -45,6 +45,8 @@ In this unit, coders will create the classic game of tic tac toe in their browse
 - [ ] In each of the win functions, if the win condition is satisfied, set the end game variable to true, and change the title to "[Player] Wins!"
 - [ ] Determine the appropriate location to place the Win functions
 
+#### Wrap
+- [ ] Push your changes!
 
 ## Project Extensions:
 - [ ] Add in your own css to personalize your project
