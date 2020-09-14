@@ -22,7 +22,7 @@ In this unit, coders will create the classic game of tic tac toe in their browse
 - [ ] Create a variable of a boolean type that will signal whether or not the game has ended and set it equal to false
 
 #### Wrap
-- [ ] Push your changes!
+- [ ] Save and submit your website using the link on the session agenda.
 
 ## Day 2
 
@@ -31,9 +31,6 @@ In this unit, coders will create the classic game of tic tac toe in their browse
 - [ ] Implement behavior that will change the turns of the player. Do this by writing a function that will change the current player to either "X" or "O" depending on the current player. Decide where to put this function.
 - [ ] Implement behavior that will change the title to "It's a draw!" and end the game by changing the boolean variable to true after 9 pieces are placed. Do this by writing a function that will add 1 to the current turns, and check if that counter has reached 9.
 - [ ] Implement behavior that will stop the game after a draw occurs. Do this by changing your performLogic function to check if the game has ended first before placing a piece.
-
-#### Wrap
-- [ ] Push your changes!
 
 ## Day 3
 
