@@ -17,9 +17,11 @@ In this unit, coders will create the classic game of tic tac toe in their browse
 - [ ] Submit your website using the link on the Agenda
 
 ### JavaScript
-- [ ] Create a variable that keeps track of the current player and set it equal to either a string of "X" or "O"
-- [ ] Create a variable that keeps track of the total number of turns taken and set it equal to 0
-- [ ] Create a variable of a boolean type that will signal whether or not the game has ended and set it equal to false
+- [ ] Declare a variable that keeps track of the current player and set it equal to either a string of "X" or "O"
+- [ ] Declare a variable that keeps track of the total number of turns taken and set it equal to 0
+- [ ] Declare a variable of a boolean type that will signal whether or not the game has ended and set it equal to false
+- [ ] Declare a function called with two parameters that removes the button of the corresponding ID, and changes the text of the div that is the tileId to the player variable.
+- [ ] Declare function that will change the current player to either "X" or "O" depending on the current player. Decide where to put this function.
 
 #### Wrap
 - [ ] Save and submit your website using the link on the session agenda.
@@ -27,19 +29,17 @@ In this unit, coders will create the classic game of tic tac toe in their browse
 ## Day 2
 
 ### JavaScript
-- [ ] Implement behavior to place pieces on the board. Do this by creating a function called performLogic with parameters buttonId and tileId that removes the button of the corresponding buttonId, and changes the text of the div that is the tileId to the player variable.
-- [ ] Implement behavior that will change the turns of the player. Do this by writing a function that will change the current player to either "X" or "O" depending on the current player. Decide where to put this function.
-- [ ] Implement behavior that will change the title to "It's a draw!" and end the game by changing the boolean variable to true after 9 pieces are placed. Do this by writing a function that will add 1 to the current turns, and check if that counter has reached 9.
-- [ ] Implement behavior that will stop the game after a draw occurs. Do this by changing your performLogic function to check if the game has ended first before placing a piece.
+- [ ] Declare a function with 3 parameters of the tileIds, and return if the value of the each of the tileIds are equal to the current player. This function will check if the player has won.
+- [ ] Declare a function that will call the function above on all of the vertical combinations of tiles.
+- [ ] Declare a function that will call the function above on all of the horizontal combinations of tiles
+- [ ] Declare a function checkDiagonalWins that will call the function above on all of the diagonal combinations
 
 ## Day 3
 
 ### JavaScript
-- [ ] Implement behavior that will end the game when a player wins. First write a function with 3 parameters of the tileIds, and return if the value of the each of the tileIds are equal to the current player
-- [ ] Next, write a function checkVerticalWins that will call the function above on all of the vertical combinations of tiles
-- [ ] Next, write a function checkHoritzontalWins that will call the function above on all of the horizontal combinations of tiles
-- [ ] Next, write a function checkDiagonalWins that will call the function above on all of the diagonal combinations
+- [ ] Implement behavior that will change the title to "It's a draw!" and end the game by changing the boolean variable to true after 9 pieces are placed. Do this by writing a function that will add 1 to the current turns, and check if that counter has reached 9.
 - [ ] In each of the win functions, if the win condition is satisfied, set the end game variable to true, and change the title to "[Player] Wins!"
+- [ ] Update your functions to check if the game has ended first before placing a piece.
 - [ ] Determine the appropriate location to place the Win functions
 
 #### Wrap
