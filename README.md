@@ -9,8 +9,7 @@ In this unit, coders will create the classic game of tic tac toe in their browse
 - [ ] Complete the project planning document.
 #### Set-Up
 - [x] Go to the repository
-- [ ] Fork this repository to your github account and clone to a new workspace
-- [ ] Add, commit, and push your changes
+- [ ] Fork this repository to your github account and import into a new Glitch project
 - [ ] Make your site live on gh-pages
 - [ ] Submit your website using the link on the Agenda
 
