@@ -18,7 +18,7 @@ In this unit, coders will create the classic game of tic tac toe in their browse
 - [ ] Declare a variable that keeps track of the total number of turns taken and set it equal to 0
 - [ ] Declare a variable of a boolean type that will signal whether or not the game has ended and set it equal to false
 - [ ] Declare a function called with two parameters that removes the button of the corresponding ID, and changes the text of the div that is the tileId to the player variable.
-- [ ] Declare function that will change the current player to either "X" or "O" depending on the current player. Decide where to put this function.
+- [ ] Declare a function with 0 parameters that will change the current player to either "X" or "O" depending on the current player. Decide where to call this function.
 
 #### Wrap
 - [ ] Save and submit your website using the link on the session agenda.
